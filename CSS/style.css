@@ -24,14 +24,20 @@ p {
   width: 40px;
   height: 40px;
 }
-::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar {
+  width: 5px;
+}
 
-::-webkit-scrollbar-track { background: whitesmoke }
+::-webkit-scrollbar-track {
+  background: whitesmoke;
+}
 ::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: #fabd03;
 }
-::-webkit-scrollbar-thumb:hover { background: black; }
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
 .navbar {
   background-color: #fabd03 !important;
   height: 90px;
@@ -561,7 +567,7 @@ a:hover {
   display: flex;
   margin: auto;
   margin-top: -30px;
-} 
+}
 
 .pusatlokasi iframe {
   border: 3px solid black;
@@ -602,12 +608,17 @@ a:hover {
   }
   .navbar ul {
     background-color: #fabd03 !important;
+    margin: -100;
+    padding: -100;
     flex: 3;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     padding: 0px 10px;
-    width: 100%;
+    border-bottom-left-radius: 12px;
+    width: 30%;
+    box-shadow: 1px 0px 1px rgba(230, 228, 228, 0.3);
+    transition: 0.5s all;
   }
   .navbar li {
     background-color: #fabd03 !important;
@@ -1127,7 +1138,10 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 100%;
+    border-bottom-left-radius: 12px;
+    width: 30%;
+    box-shadow: 2px 0px 1px rgba(230, 228, 228, 0.3);
+    transition: 0.5s all;
   }
   .navbar li {
     display: flex;
