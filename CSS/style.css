@@ -700,20 +700,24 @@ a:hover {
 
   /* untuk mengatur main */
   .main #utama {
-    font-size: 75px;
+    font-size: 45px;
     width: 100%;
   }
   .main #subs {
     font-size: 17px;
     width: 100%;
   }
+  #datang {
+    font-family: "satisfy";
+    margin-top: -30px;
+  }
   .main h6 {
     font-size: 8px;
   }
   .main {
     text-align: center;
-    padding: 157px 50px;
-    background-position: -120px 0px;
+    padding: 157px 10px;
+    background-position: -170px 0px;
     width: auto;
     height: 550px;
   }
