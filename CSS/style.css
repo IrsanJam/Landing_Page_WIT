@@ -67,10 +67,10 @@ h6 {
   text-shadow: 1px 2px rgb(3, 3, 3, 0.6);
 }
 .main h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .main #utama {
-  font-size: 120px;
+  font-size: 100px;
   padding-bottom: 0px;
   color: #fabd03;
   text-shadow: 1px 2px rgb(3, 3, 3, 0.6);
@@ -103,10 +103,10 @@ h6 {
 }
 
 #abus {
-  height: 260px;
+  height: 290px;
   background-color: #fabd03;
   text-align: center;
-  padding: 40px 60px 0px 60px;
+  padding: 50px 60px 0px 60px;
   box-sizing: border-box;
   line-height: 0.75cm;
 }
@@ -635,7 +635,7 @@ a:hover {
 
   /* untuk mengatur main */
   .main #utama {
-    font-size: 70px;
+    font-size: 43px;
     width: 100%;
   }
   .main #subs {
@@ -643,7 +643,7 @@ a:hover {
     width: 100%;
   }
   .main h6 {
-    font-size: 10px;
+    font-size: 8px;
   }
   .main {
     text-align: center;
@@ -666,7 +666,7 @@ a:hover {
   /* mengatur about us */
   #abus {
     padding-top: 28px;
-    height: 270px;
+    height: 300px;
     width: auto;
   }
   #abus h2 {
@@ -746,7 +746,11 @@ a:hover {
   }
   #titleprod {
     margin-top: 30px;
+    padding: 0px 50px;
     margin-bottom: 0px;
+  }
+  .w {
+    font-size: 2px;
   }
   .picunggul {
     flex: 1;
@@ -871,6 +875,11 @@ a:hover {
     background-color: white;
     margin-bottom: 30px;
   }
+  .buy #but {
+    border-radius: 11px;
+    width: 40%;
+    height: 65px;
+  }
   /* akhir mengatur products */
   .testimoni {
     height: 760px;
@@ -974,12 +983,12 @@ a:hover {
   /* mengatur about */
   #about {
     padding-top: 10px;
-    height: auto;
+    height: 330px;
     padding-bottom: 10px;
     width: auto;
   }
   #about h2 {
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 10px;
     font-size: 19px;
   }
@@ -1155,7 +1164,7 @@ a:hover {
 
   /* untuk mengatur main */
   .main #utama {
-    font-size: 100px;
+    font-size: 77px;
     width: 100%;
   }
   .main #subs {
@@ -1205,7 +1214,7 @@ a:hover {
   /* mengatur products */
   #products {
     /* height: 1600px; */
-    height: 1400px;
+    height: 1200px;
     width: auto;
     background-color: rgb(238, 230, 230);
   }
@@ -1222,7 +1231,7 @@ a:hover {
   .keunggulan {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 350px;
     position: relative;
   }
   #titleunggul {
@@ -1235,7 +1244,7 @@ a:hover {
     flex: 1;
     margin: auto;
     width: 100%;
-    height: 200px;
+    height: 270px;
     padding-bottom: 30px;
     margin-bottom: 60px;
   }
@@ -1265,9 +1274,9 @@ a:hover {
     background-size: cover;
     background-image: url(../Assets/IMG/Menu/bawang.png);
     background-position: 50% 50%;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     position: absolute;
-    top: 100px;
+    top: 130px;
   }
   .picunggul img {
     visibility: hidden;
@@ -1294,9 +1303,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/pedas.png);
     background-size: cover;
     background-color: white;
-    background-position: -40px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     border-radius: 20px;
@@ -1324,9 +1333,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/bawang.png);
     background-size: cover;
     background-color: white;
-    background-position: -50px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     position: relative;
@@ -1353,9 +1362,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/kencur\ pouch.png);
     background-size: cover;
     background-color: white;
-    background-position: -40px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     position: relative;
@@ -1382,9 +1391,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/kencur\ botol.png);
     background-color: white;
     background-size: cover;
-    background-position: -50px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     display: flex;
@@ -1419,17 +1428,23 @@ a:hover {
   .buy {
     background-color: rgb(238, 230, 230);
   }
+  .buy #but {
+    font-size: 13px;
+    margin-top: 70px;
+    width: 170px;
+    height: 50px;
+  }
   /* akhir mengatur products */
 
   /* mengatur about */
   #about {
     padding-top: 10px;
-    height: auto;
+    height: 220px;
     padding-bottom: 10px;
     width: auto;
   }
   #about h2 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     font-size: 19px;
   }
@@ -1673,7 +1688,7 @@ a:hover {
   }
   /* untuk mengatur main */
   .main #utama {
-    font-size: 100px;
+    font-size: 77px;
     width: 100%;
   }
   .main #subs {
@@ -1723,7 +1738,7 @@ a:hover {
   /* mengatur products */
   #products {
     /* height: 1600px; */
-    height: 1395px;
+    height: 1195px;
     width: auto;
     padding: 0px 60px;
     margin: 0px 80px;
@@ -1741,7 +1756,7 @@ a:hover {
   .keunggulan {
     display: flex;
     flex-direction: column;
-    height: 300px;
+    height: 350px;
     position: relative;
   }
   #titleunggul {
@@ -1786,7 +1801,7 @@ a:hover {
     background-position: 50% 50%;
     padding-bottom: 30px;
     position: absolute;
-    top: 100px;
+    top: 130px;
   }
   .picunggul img {
     visibility: hidden;
@@ -1813,9 +1828,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/pedas.png);
     background-size: cover;
     background-color: white;
-    background-position: -40px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     border-radius: 20px;
@@ -1843,9 +1858,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/bawang.png);
     background-size: cover;
     background-color: white;
-    background-position: -50px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     position: relative;
@@ -1872,9 +1887,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/kencur\ pouch.png);
     background-size: cover;
     background-color: white;
-    background-position: -40px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     position: relative;
@@ -1901,9 +1916,9 @@ a:hover {
     background-image: url(../Assets/IMG/Menu/kencur\ botol.png);
     background-color: white;
     background-size: cover;
-    background-position: -50px 0px;
+    background-position: 0px 0px;
     border: 1px solid #fabd03;
-    height: 400px;
+    height: 300px;
     width: 300px;
     margin: 15px;
     display: flex;
@@ -1935,17 +1950,23 @@ a:hover {
     box-shadow: 1px 1px 3px black;
     text-align: center;
   }
+  .buy #but {
+    margin-top: 80px;
+    width: 200px;
+    height: 80px;
+    font-size: 12px;
+  }
   /* akhir mengatur products */
 
   /* mengatur about */
   #about {
     padding-top: 10px;
-    height: auto;
+    height: 200px;
     padding-bottom: 10px;
     width: auto;
   }
   #about h2 {
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 10px;
     font-size: 19px;
   }
