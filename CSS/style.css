@@ -334,11 +334,11 @@ a:hover {
   height: 50px;
   display: flex;
   flex-wrap: wrap;
-  font-weight: bold;
   color: rgb(3, 3, 3, 0.6);
   align-items: center;
   justify-content: center;
   bottom: 0px;
+  font-weight: bold;
   position: absolute;
   border-radius: 20px;
   font-size: small;
