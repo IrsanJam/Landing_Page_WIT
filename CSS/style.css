@@ -670,7 +670,7 @@ a:hover {
 }
 @media (min-height: 476px) and (max-height: 767px) {
   .main {
-    background-position: 0px 0px;
+    width: 100%;
   }
 }
 @media (min-width: 320px) and (max-width: 767px) {
@@ -732,6 +732,8 @@ a:hover {
     text-align: center;
     padding: 157px 10px;
     background-position: -60px 0px;
+    background-repeat: repeat-x;
+    background-size: cover;
     width: auto;
     height: 550px;
   }
