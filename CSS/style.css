@@ -1433,7 +1433,7 @@ a:hover {
     flex-direction: row;
     height: 352px;
     justify-content: center;
-    padding: 20px;
+    padding: 30%;
     box-sizing: border-box;
     flex-wrap: wrap;
   }
