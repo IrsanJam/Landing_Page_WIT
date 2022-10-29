@@ -669,7 +669,7 @@ a:hover {
   line-height: 0.5cm;
 }
 
-@media (min-width: 320px) and (max-width: 766px) {
+@media (min-width: 320px) and (max-width: 489px) {
   * {
     max-width: 100%;
   }
@@ -1268,7 +1268,7 @@ a:hover {
   }
   /* akhir mengatur contacts */
 }
-@media (min-width: 767px) and (max-width: 991px) {
+@media (min-width: 490px) and (max-width: 991px) {
   .main {
     background-position: 0px 0px;
   }
