@@ -97,8 +97,9 @@ h6 {
   background-color: #fabd03;
   color: rgb(3, 3, 3, 0.6);
 }
+
 #but:hover {
-  background-color: rgba(82, 38, 7, 0.7);
+  background-color: #522607b3;
   background-color: orangered;
 }
 
@@ -726,12 +727,12 @@ a:hover {
   }
   .main {
     text-align: center;
-    padding: 157px 10px;
+    padding: 55% 10px;
     background-position: -60px 0px;
     background-repeat: repeat-x;
     background-size: cover;
     width: auto;
-    height: 550px;
+    height: 700px;
   }
   #but {
     width: 100px;
