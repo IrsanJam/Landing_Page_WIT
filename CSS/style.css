@@ -732,7 +732,7 @@ a:hover {
     background-repeat: repeat-x;
     background-size: cover;
     width: auto;
-    height: 700px;
+    height: 700px; 
   }
   #but {
     width: 100px;
